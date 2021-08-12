@@ -6,7 +6,7 @@ class PokeController < ApplicationController
   end
 
   def list_pokemons
-    response = Net::HTTP.get(URI.parse('https://pokeapi.co/api/v2/pokemon/?limit=13'))
+    response = Net::HTTP.get(URI.parse('https://pokeapi.co/api/v2/pokemon/?limit=12'))
     
     pokemons = JSON.parse(response)
     pokemons['results'].map do | pokemon |  
