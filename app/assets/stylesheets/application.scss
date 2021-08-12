@@ -1,2 +1,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+h1 {
+  color: #ffffff;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
