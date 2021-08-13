@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <% @list_pokemons.each do | pokemon | %>
+      <a href="/pokemons/<%= pokemon.id %>">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="<%= pokemon.img %>" alt="pokemon image">
+            <div class="caption">
+            <h3><%= pokemon.name %></h3>
+              <p>
+                <button class="btn btn-primary">Capturar</button> 
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+    <% end %>
+  </div>
+</div>
