@@ -1,10 +1,12 @@
-class Pokemon
-  attr_reader :id, :name, :img, :types
+class Pokemon < ApplicationRecord
+  # attr_reader :id, :name, :img, :types
 
-  def initialize(pokemon)
-    @id = pokemon['id']
-    @name = pokemon['name']
-    @img = pokemon['sprites']['front_default']
-    @types = pokemon['types']
-  end
+  # def initialize(pokemon)
+  #   @id = pokemon['id']
+  #   @name = pokemon['name']
+  #   @img = pokemon['sprites']['front_default']
+  #   @types = pokemon['types']
+  # end
+  validates :id, uniqueness: true
+    
 end

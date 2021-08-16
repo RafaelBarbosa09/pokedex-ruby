@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7711af-a6e5-467b-8422-dac7cda7f31c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/poke/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/poke/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pokedex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pokedex.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
       <updated>1628704183988</updated>
       <workItem from="1628704195053" duration="8000" />
       <workItem from="1628704289334" duration="2422000" />
+      <workItem from="1629127707648" duration="42000" />
     </task>
     <servers />
   </component>
@@ -52,5 +52,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

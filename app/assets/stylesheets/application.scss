@@ -9,11 +9,16 @@ h1 {
   color: #ffffff;
 }
 
+a, a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .container {
   margin-top: 100px;
 }
 
-.caption {
+.caption, .thumbnail {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,5 +33,15 @@ h1 {
     & + p {
       margin-left: 5px;
     }
+  }
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+
+  & > a {
+    margin-left: 50px;
+    font-size: 20px;
   }
 }
