@@ -51,7 +51,7 @@ class PokemonsController < ApplicationController
     if pokemon.save
       redirect_to pokemons_url
     else
-      redirect_to pokemons_url, notice: "Deu ruim"
+      redirect_to pokemons_url, notice: "Pokemón já capturado!"
     end
   end
 

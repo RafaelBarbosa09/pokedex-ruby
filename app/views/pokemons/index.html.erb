@@ -1,5 +1,11 @@
 <div class="container">
-  <%= flash[:notice]%>
+  <% if flash[:notice] %>
+    <div class="alert alert-danger" role="alert">
+      <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+      <span class="sr-only">Erro:</span>
+      <%= flash[:notice] %>
+    </div>
+  <% end %>
   <div class="row">
     <% @list_pokemons.each do | pokemon | %>
       <%= form_with(model: pokemon) do |form| %>
