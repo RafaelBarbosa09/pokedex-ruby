@@ -8,5 +8,5 @@ class Pokemon < ApplicationRecord
   #   @types = pokemon['types']
   # end
   validates :id, uniqueness: true
-    
+  validates :name, :img, presence: true
 end
